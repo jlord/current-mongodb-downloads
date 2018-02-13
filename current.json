@@ -1,0 +1,2604 @@
+{
+   "versions": [
+      {
+         "changes": "https://jira.mongodb.org/issues/?jql=project%20%3D%20SERVER%20AND%20fixVersion%20%3D%20%223.7.1%22%20ORDER%20BY%20status%20DESC%2C%20priority%20DESC",
+         "current": true,
+         "date": "01/16/2018",
+         "development_release": true,
+         "downloads": [
+            {
+               "archive": {
+                  "sha1": "0e6ac21b79e9a0ef6c54b72bf2adfdd0bdef1c31",
+                  "sha256": "b8743e61f577eb6465621de3ed27b1ec4c1ef0541408f5ea0e382638009c3c7b",
+                  "url": "https://fastdl.mongodb.org/src/mongodb-src-r3.7.1.zip"
+               },
+               "edition": "source"
+            },
+            {
+               "archive": {
+                  "sha1": "c9074d1ea3b5444ce8ca898e3faa91a937bdaffe",
+                  "sha256": "fab1ff01985b1d3fa576dd282b5239a04c9817eacdc034cba14ba50024c41235",
+                  "url": "https://fastdl.mongodb.org/src/mongodb-src-r3.7.1.tar.gz"
+               },
+               "edition": "source"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debugsymbols-3.7.1.tgz",
+                  "sha1": "02ab6267422b3585cddc72a881722867f6df8c5d",
+                  "sha256": "4f4b90aea9b0c6160aa9701170486b9b09bc65a56e46ff85206ce6aabeec8a17",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.7.1.tgz"
+               },
+               "edition": "base",
+               "target": "linux_x86_64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amzn64-debugsymbols-3.7.1.tgz",
+                  "sha1": "06e5aa4ed17204560a907b41c927a50406c04f38",
+                  "sha256": "99211585343f0c5b8cb1b776932bdc82392fe5de8a615a34874f7ca0266f76a9",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amzn64-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-server-3.7.1-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-mongos-3.7.1-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-tools-3.7.1-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-shell-3.7.1-1.amzn1.x86_64.rpm"
+               ],
+               "target": "amzn64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel62-debugsymbols-3.7.1.tgz",
+                  "sha1": "73781ea3f9b25c449857fefb115b5177915f44e8",
+                  "sha256": "bed89f05d36328210a52af58e27d47a6e17438ab4330907aa1a3cfc10d206ff0",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel62-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-server-3.7.1-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-mongos-3.7.1-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-tools-3.7.1-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-shell-3.7.1-1.el6.x86_64.rpm"
+               ],
+               "target": "rhel62"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse11-debugsymbols-3.7.1.tgz",
+                  "sha1": "e6eb5d8b8ca93623617339c411c0217aaab3ac4c",
+                  "sha256": "ba305f32fb92618aac6ed6a4c2a7712b29561577eed1699db3f7164031edb1fd",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse11-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-server-3.7.1-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-mongos-3.7.1-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-tools-3.7.1-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-shell-3.7.1-1.suse11.x86_64.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-debugsymbols-3.7.1.tgz",
+                  "sha1": "2992003dc10088940b0f8e252561fc1e55597350",
+                  "sha256": "a92cdfce7c5d8542993460e1626749ee050c3a6bbdc81ca1009c6a9a3cff3490",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-server_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-mongos_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-tools_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-shell_3.7.1_amd64.deb"
+               ],
+               "target": "ubuntu1404"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1204-debugsymbols-3.7.1.tgz",
+                  "sha1": "f0e11667c490ac4d9876c7cd2679ab9969a531e7",
+                  "sha256": "3a1c9184d4a943a43e76df351e07525b8b75d7a4d85a724b667e746fd107bcf7",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1204-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-server_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-mongos_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-tools_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-shell_3.7.1_amd64.deb"
+               ],
+               "target": "ubuntu1204"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "a23b796391f5f9b9f901ac7475bb2e1fbb5f4275",
+                  "sha256": "3840874ec65fcb14edf0446d33d54774277ff2a5f548d809d0f9aacc3c38912c",
+                  "url": "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.7.1.zip"
+               },
+               "edition": "enterprise",
+               "msi": "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.7.1-signed.msi",
+               "packages": [
+                  "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.7.1-signed.msi"
+               ],
+               "target": "windows"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-debugsymbols-3.7.1.tgz",
+                  "sha1": "4ebc0871114a74312112a47cead6cb401aa7ac05",
+                  "sha256": "11657929a362fa4e27edf943adcba77e596b5bd958ab3ea1e156d792c43993a3",
+                  "url": "https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-3.7.1.tgz"
+               },
+               "edition": "base",
+               "target": "osx-ssl"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "61628e79fe7dc7252a0f96a862f9c893f5649a8b",
+                  "sha256": "cf63a5c4c12fba7e2ceb63aa12b4c959c8080790fe0b45fd8419e61d990ef652",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.7.1.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.7.1-signed.msi",
+               "target": "windows_x86_64-2008plus-ssl"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel70-debugsymbols-3.7.1.tgz",
+                  "sha1": "f75007471c4d58ed41f3acab8acc33b3e4672570",
+                  "sha256": "c8dac8163d53a0364b5d9507458812886326a218e604af36f8ce79a7d089ab21",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel70-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-server-3.7.1-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-mongos-3.7.1-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-tools-3.7.1-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-shell-3.7.1-1.el7.x86_64.rpm"
+               ],
+               "target": "rhel70"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian71-debugsymbols-3.7.1.tgz",
+                  "sha1": "0ebb166b14feebbccb5e466ffd91eb4b41d17d0a",
+                  "sha256": "b25922f57a80299e0db65aa367ed5f82ee0417481df540bd0871344a5a4b0ef4",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian71-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.7/main/binary-amd64/mongodb-enterprise-unstable-server_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.7/main/binary-amd64/mongodb-enterprise-unstable-mongos_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.7/main/binary-amd64/mongodb-enterprise-unstable-tools_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.7/main/binary-amd64/mongodb-enterprise-unstable-shell_3.7.1_amd64.deb"
+               ],
+               "target": "debian71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-debugsymbols-3.7.1.tgz",
+                  "sha1": "5fdf9209bbd6133d6fe4cb3c53ff33601368193c",
+                  "sha256": "bea6036e6c4992edb711c069df596728e3551c16637fb7ae59b7fc1d58f3e55a",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-server_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-mongos_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-tools_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-shell_3.7.1_amd64.deb"
+               ],
+               "target": "ubuntu1404"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-debugsymbols-3.7.1.tgz",
+                  "sha1": "452a2aba982ca59183842ffe078ddc7190d552b7",
+                  "sha256": "465fd2774d3f64fb8fcefba927157c59774a44c3f9d6d50929d7f38205fadee5",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-server_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-mongos_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-tools_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-shell_3.7.1_amd64.deb"
+               ],
+               "target": "ubuntu1204"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-debugsymbols-3.7.1.tgz",
+                  "sha1": "316653bf2786cb9e6124aa8a6c2419c0895549d5",
+                  "sha256": "2553f43684e1dc9d86602dd0f327fef5d84d8f5877479a3991f18cbd29d0da0d",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-server-3.7.1-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-mongos-3.7.1-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-tools-3.7.1-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-shell-3.7.1-1.el7.x86_64.rpm"
+               ],
+               "target": "rhel70"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-debugsymbols-3.7.1.tgz",
+                  "sha1": "495940af143ef76b573ef18d4bf7df24b0103178",
+                  "sha256": "2365c1a5e732f88646fb876a1f11f0c30861a34f7b99485eaf2c064afe486c65",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-server-3.7.1-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-mongos-3.7.1-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-tools-3.7.1-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-shell-3.7.1-1.el6.x86_64.rpm"
+               ],
+               "target": "rhel62"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse11-debugsymbols-3.7.1.tgz",
+                  "sha1": "e641b5cc8a9a8f8ab43770ecd0c7687f892535a0",
+                  "sha256": "d4c6342a30d2b98c789121b2f34a64b1be9540cf03cd5be4f7759c9849551267",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse11-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-server-3.7.1-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-mongos-3.7.1-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-tools-3.7.1-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-shell-3.7.1-1.suse11.x86_64.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian71-debugsymbols-3.7.1.tgz",
+                  "sha1": "0d98fc91f19d2b56c66d3e129156ea42c5c8a3a1",
+                  "sha256": "99440a65d26b0c321df62d76fc3297adcc4a16770caf274bb9b9809c2934cbbe",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian71-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.7/main/binary-amd64/mongodb-org-unstable-server_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.7/main/binary-amd64/mongodb-org-unstable-mongos_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.7/main/binary-amd64/mongodb-org-unstable-tools_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.7/main/binary-amd64/mongodb-org-unstable-shell_3.7.1_amd64.deb"
+               ],
+               "target": "debian71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-debugsymbols-3.7.1.tgz",
+                  "sha1": "52f046ab6d1e4ce9f07f0fc3ec28ab923167a097",
+                  "sha256": "1f3aa74466ab9c52e2f9319ab8eba047936f39d5aed0a156826219c8c4bde6a8",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-server-3.7.1-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-mongos-3.7.1-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-tools-3.7.1-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-shell-3.7.1-1.amzn1.x86_64.rpm"
+               ],
+               "target": "amazon"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/osx/mongodb-osx-x86_64-enterprise-debugsymbols-3.7.1.tgz",
+                  "sha1": "78ebcfc261002304a4205523f6cc0f65a5e8607d",
+                  "sha256": "445cc5d350823359ca1f3374ae04d5e874777e7e2905e86a3e71afb3492e5426",
+                  "url": "https://downloads.mongodb.com/osx/mongodb-osx-x86_64-enterprise-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "target": "osx"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse12-debugsymbols-3.7.1.tgz",
+                  "sha1": "b476b2d6ba17d6c3f541d5ed19c33174dad71c7e",
+                  "sha256": "2bf23dd3aefc799b0895959ea1641e675a9f7c3b22206f019b19536055d42917",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse12-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-server-3.7.1-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-mongos-3.7.1-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-tools-3.7.1-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.7/x86_64/RPMS/mongodb-enterprise-unstable-shell-3.7.1-1.suse12.x86_64.rpm"
+               ],
+               "target": "suse12"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-debugsymbols-3.7.1.tgz",
+                  "sha1": "b3983a473f8ac42a7bdf42606b84d0945cdab0b2",
+                  "sha256": "5d3e7d1108b1d5db4c9c64ab53f4ec21a6a387c3ec89146b3a869e3832f584e0",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-server-3.7.1-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-mongos-3.7.1-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-tools-3.7.1-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.7/x86_64/RPMS/mongodb-org-unstable-shell-3.7.1-1.suse12.x86_64.rpm"
+               ],
+               "target": "suse12"
+            },
+            {
+               "arch": "arm64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-arm64-enterprise-ubuntu1604-debugsymbols-3.7.1.tgz",
+                  "sha1": "c65f3933f8bff01a07e65354bf2178a116657c71",
+                  "sha256": "fd109054faea7de80b18120db0c98eed1a341a7c763b974b9701fa467cc3f2ea",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-arm64-enterprise-ubuntu1604-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-arm64/mongodb-enterprise-unstable-server_3.7.1_arm64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-arm64/mongodb-enterprise-unstable-mongos_3.7.1_arm64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-arm64/mongodb-enterprise-unstable-tools_3.7.1_arm64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-arm64/mongodb-enterprise-unstable-shell_3.7.1_arm64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "arm64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-arm64-ubuntu1604-debugsymbols-3.7.1.tgz",
+                  "sha1": "a9b36323a77a3570e1bef03c7f50b839ed364189",
+                  "sha256": "b361f59534671957b7dae101b6d6dacc15b3d7bf05e87f06a830cef1819788b1",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-arm64-ubuntu1604-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.7/multiverse/binary-arm64/mongodb-org-unstable-server_3.7.1_arm64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.7/multiverse/binary-arm64/mongodb-org-unstable-mongos_3.7.1_arm64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.7/multiverse/binary-arm64/mongodb-org-unstable-tools_3.7.1_arm64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.7/multiverse/binary-arm64/mongodb-org-unstable-shell_3.7.1_arm64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian81-debugsymbols-3.7.1.tgz",
+                  "sha1": "d15f492055a7e6a7846221585339f09b2efd0209",
+                  "sha256": "0c77b53e8da94fa05c8ac2f75aa9bca90385eb8401548b25cb2df0a6fd868c33",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian81-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.7/main/binary-amd64/mongodb-enterprise-unstable-server_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.7/main/binary-amd64/mongodb-enterprise-unstable-mongos_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.7/main/binary-amd64/mongodb-enterprise-unstable-tools_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.7/main/binary-amd64/mongodb-enterprise-unstable-shell_3.7.1_amd64.deb"
+               ],
+               "target": "debian81"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian81-debugsymbols-3.7.1.tgz",
+                  "sha1": "b3b821b87c038ca12c5284fbb4969168aa702d70",
+                  "sha256": "c982944abfb047af610c8639c58238252d69131de6362d7cc024c6132e5fcda7",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian81-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.7/main/binary-amd64/mongodb-org-unstable-server_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.7/main/binary-amd64/mongodb-org-unstable-mongos_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.7/main/binary-amd64/mongodb-org-unstable-tools_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.7/main/binary-amd64/mongodb-org-unstable-shell_3.7.1_amd64.deb"
+               ],
+               "target": "debian81"
+            },
+            {
+               "arch": "ppc64le",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel71-debugsymbols-3.7.1.tgz",
+                  "sha1": "60eb3c2a3a0dfbfd5125dc42e13a7b9d01cbc3d8",
+                  "sha256": "0fa36b37ed5652552e759dfd5382640e10e7066b68c2f66c893e9e00fc69392f",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel71-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.7/ppc64le/RPMS/mongodb-enterprise-unstable-server-3.7.1-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.7/ppc64le/RPMS/mongodb-enterprise-unstable-mongos-3.7.1-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.7/ppc64le/RPMS/mongodb-enterprise-unstable-tools-3.7.1-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.7/ppc64le/RPMS/mongodb-enterprise-unstable-shell-3.7.1-1.el7.ppc64le.rpm"
+               ],
+               "target": "rhel71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1604-debugsymbols-3.7.1.tgz",
+                  "sha1": "18df74e1ae010c8793feea00d2154046332c9ddd",
+                  "sha256": "0c29da760c8a4cd0b115c26d5730a3db64c6116549a9578f01c00ae52c67f5af",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1604-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-server_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-mongos_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-tools_3.7.1_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-amd64/mongodb-enterprise-unstable-shell_3.7.1_amd64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-debugsymbols-3.7.1.tgz",
+                  "sha1": "b89e517beb7b2aa85dfa54eb20646966478f4126",
+                  "sha256": "fd0069a9c1f2bea4780cf033451f208d90cc386f058a0286499bff2e8bfacfbc",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.7.1.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-server_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-mongos_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-tools_3.7.1_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.7/multiverse/binary-amd64/mongodb-org-unstable-shell_3.7.1_amd64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "s390x",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-ubuntu1604-debugsymbols-3.7.1.tgz",
+                  "sha1": "7cd6175da47e8f825caa799d61d4891f810215d7",
+                  "sha256": "3ecadeebd3b2babc4669d5c5aff8100f3a52888a06f5c0777b0adca912ddf806",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-ubuntu1604-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-s390x/mongodb-enterprise-unstable-server_3.7.1_s390x.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-s390x/mongodb-enterprise-unstable-mongos_3.7.1_s390x.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-s390x/mongodb-enterprise-unstable-tools_3.7.1_s390x.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-s390x/mongodb-enterprise-unstable-shell_3.7.1_s390x.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "ppc64le",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-ubuntu1604-debugsymbols-3.7.1.tgz",
+                  "sha1": "8670cee0be55f95bf3ea5e9a0e9a9b7fc7d7c532",
+                  "sha256": "9ef7d5b66c66d0fadc5f500b30fa7049682c542bb737746f0bb4a6656cae14c4",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-ubuntu1604-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-ppc64el/mongodb-enterprise-unstable-server_3.7.1_ppc64el.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-ppc64el/mongodb-enterprise-unstable-mongos_3.7.1_ppc64el.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-ppc64el/mongodb-enterprise-unstable-tools_3.7.1_ppc64el.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.7/multiverse/binary-ppc64el/mongodb-enterprise-unstable-shell_3.7.1_ppc64el.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "s390x",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-suse12-debugsymbols-3.7.1.tgz",
+                  "sha1": "ab7447fbaa06257ac18d2d71f3c5c8f2c6e090d0",
+                  "sha256": "0b3d1381537e2756b566561dc7e11d402a70903f5541d288b60664e88ea3b84b",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-suse12-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-server-3.7.1-1.suse12.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-mongos-3.7.1-1.suse12.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-tools-3.7.1-1.suse12.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-shell-3.7.1-1.suse12.s390x.rpm"
+               ],
+               "target": "suse12"
+            },
+            {
+               "arch": "s390x",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-suse11-debugsymbols-3.7.1.tgz",
+                  "sha1": "a2fb5b3c07917404ff965466b032c2f6c6510d9a",
+                  "sha256": "348207ce2bd8ba4eeff08025f1bf0524acf588c15880bceb91caee02460d8725",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-suse11-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-server-3.7.1-1.suse11.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-mongos-3.7.1-1.suse11.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-tools-3.7.1-1.suse11.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-shell-3.7.1-1.suse11.s390x.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "s390x",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel67-debugsymbols-3.7.1.tgz",
+                  "sha1": "9f4d98d9f3fd06758d10832a29ad01577f3f0cdf",
+                  "sha256": "ddfe5a92b8878f72e7c4c1b22aaacdc23d3ab489cceae8fcc6976d154546d226",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel67-3.7.1.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-server-3.7.1-1.el6.s390x.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-mongos-3.7.1-1.el6.s390x.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-tools-3.7.1-1.el6.s390x.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.7/s390x/RPMS/mongodb-enterprise-unstable-shell-3.7.1-1.el6.s390x.rpm"
+               ],
+               "target": "rhel67"
+            }
+         ],
+         "githash": "86c02f1c786ccf46f97f4561ab0ad85aed87c297",
+         "production_release": false,
+         "release_candidate": false,
+         "version": "3.7.1"
+      },
+      {
+         "changes": "https://jira.mongodb.org/issues/?jql=project%20%3D%20SERVER%20AND%20fixVersion%20%3D%20%223.6.2%22%20ORDER%20BY%20status%20DESC%2C%20priority%20DESC",
+         "current": true,
+         "date": "01/10/2018",
+         "development_release": false,
+         "downloads": [
+            {
+               "archive": {
+                  "sha1": "01ee79d1a9d83b1ba7d4d42554bdc13920a12fca",
+                  "sha256": "c0ac5f825defaed5bb961d0d2994c4489527df1d53fd27ce57e3a030a8504b47",
+                  "url": "https://fastdl.mongodb.org/src/mongodb-src-r3.6.2.zip"
+               },
+               "edition": "source"
+            },
+            {
+               "archive": {
+                  "sha1": "2b394e615d5c80d059e1cd365927d9b2cb366bf0",
+                  "sha256": "018788bd31d6953e55cda0ad0771d23e6b78e024a8a6404a80a900c67215b0a7",
+                  "url": "https://fastdl.mongodb.org/src/mongodb-src-r3.6.2.tar.gz"
+               },
+               "edition": "source"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debugsymbols-3.6.2.tgz",
+                  "sha1": "34f61e28f98616d0724cd46d7ab93229b05ca5d1",
+                  "sha256": "ed28a5a95c5255493a5d29771b9cb4d4e183f19ba3481e074c81ca29b3bab1ff",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.6.2.tgz"
+               },
+               "edition": "base",
+               "target": "linux_x86_64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amzn64-debugsymbols-3.6.2.tgz",
+                  "sha1": "8d22713b4a380209397cff0c0e87aa87ea3097d8",
+                  "sha256": "9bcb0c19b9326f17c4e7b35f314f2cfcdcf7e31d5e25a1aff1340973a2cd83c5",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amzn64-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-server-3.6.2-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-mongos-3.6.2-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-tools-3.6.2-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-shell-3.6.2-1.amzn1.x86_64.rpm"
+               ],
+               "target": "amzn64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel62-debugsymbols-3.6.2.tgz",
+                  "sha1": "00d4fd0165d4fdf67927965456fcceec12665183",
+                  "sha256": "c63d0e2be6cd5d022f0813faf4870a8c36499151378d0e8a00ab8c0be6795a2a",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel62-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-server-3.6.2-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-mongos-3.6.2-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-tools-3.6.2-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-shell-3.6.2-1.el6.x86_64.rpm"
+               ],
+               "target": "rhel62"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse11-debugsymbols-3.6.2.tgz",
+                  "sha1": "6afeff042c3b74f816664f582141c3cee929ce5c",
+                  "sha256": "30df0d9b3e79b87041ffad5d75513bc3f3dea6ffe956f35644cfe28b9f7d4ad9",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse11-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-server-3.6.2-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-mongos-3.6.2-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-tools-3.6.2-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-shell-3.6.2-1.suse11.x86_64.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-debugsymbols-3.6.2.tgz",
+                  "sha1": "ef7ac13b8af85e7e4b971da5c5cfda2ddf990198",
+                  "sha256": "e80244ab80e9b39d351c531ef01d89225053522c64b95ba66ea736ee120d552d",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-server_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-mongos_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-tools_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-shell_3.6.2_amd64.deb"
+               ],
+               "target": "ubuntu1404"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1204-debugsymbols-3.6.2.tgz",
+                  "sha1": "317b87c487fc4da7b4216c8e076c14531c9c5a17",
+                  "sha256": "1abfebbf96e20af7ee1a883f78c811a9dd8b30df62dd7c3ec79415ee97061473",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1204-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-server_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-mongos_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-tools_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-shell_3.6.2_amd64.deb"
+               ],
+               "target": "ubuntu1204"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "21edf174e0de3cabf78cccb45eb2d532cce1f1aa",
+                  "sha256": "ae89e971787f89ffc5817220684ffae9cd466832f59fc445c59c5864d4936e7f",
+                  "url": "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.6.2.zip"
+               },
+               "edition": "enterprise",
+               "msi": "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.6.2-signed.msi",
+               "packages": [
+                  "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.6.2-signed.msi"
+               ],
+               "target": "windows"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-debugsymbols-3.6.2.tgz",
+                  "sha1": "2ac470dfd02ba1cb1233b507b18ec5f81d9ede04",
+                  "sha256": "60cbe205a9ff584c7156c7bf7eb76ca90cb7a80ccfea6114e6b87689d9ceacac",
+                  "url": "https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-3.6.2.tgz"
+               },
+               "edition": "base",
+               "target": "osx-ssl"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "99a57f091514d1e7363f3252fc96d663227655aa",
+                  "sha256": "32c00a2a11ea1ee58b41818cf5e1d07055dd763b1cdaab740c79ddaaca33a2cd",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.6.2.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.6.2-signed.msi",
+               "target": "windows_x86_64-2008plus-ssl"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel70-debugsymbols-3.6.2.tgz",
+                  "sha1": "0f8d13da002073e785c8d0ceb5d4631694c5de1f",
+                  "sha256": "26f61e588615c66a7b0d3a180ec0ece49adc938f788a071776449f82290d47de",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel70-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-server-3.6.2-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-mongos-3.6.2-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-tools-3.6.2-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-shell-3.6.2-1.el7.x86_64.rpm"
+               ],
+               "target": "rhel70"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian71-debugsymbols-3.6.2.tgz",
+                  "sha1": "ec03222e3da77f50c6d29950257c2989cf982182",
+                  "sha256": "21708ba68f8782aa1278bc39aa83af45d81f0f1fb0bb5e05fd5b3a7b23991112",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian71-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.6/main/binary-amd64/mongodb-enterprise-server_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.6/main/binary-amd64/mongodb-enterprise-mongos_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.6/main/binary-amd64/mongodb-enterprise-tools_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.6/main/binary-amd64/mongodb-enterprise-shell_3.6.2_amd64.deb"
+               ],
+               "target": "debian71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-debugsymbols-3.6.2.tgz",
+                  "sha1": "bb92a25eaf9656def9bfead77b85d872d16a8c6b",
+                  "sha256": "d82729c077a12b49897c14382b854a32617a558f03446ccbd3e926141387a7ea",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-server_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-mongos_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-tools_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-shell_3.6.2_amd64.deb"
+               ],
+               "target": "ubuntu1404"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-debugsymbols-3.6.2.tgz",
+                  "sha1": "7523521e5e0483829813a7101a38587b6c9e378b",
+                  "sha256": "9544335ffbd33d3327eeffd54d3e5d8df8448c7d230da49a3486d27b2d4e71bb",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-server_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-mongos_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-tools_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-shell_3.6.2_amd64.deb"
+               ],
+               "target": "ubuntu1204"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-debugsymbols-3.6.2.tgz",
+                  "sha1": "e52afa9fd0f9120de0832f56b5676669b5a2ba6b",
+                  "sha256": "1a5499c066e7837f0220556b307db5a5dbe4f263d3afef11c3abc3808c4d0ccc",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.6/x86_64/RPMS/mongodb-org-server-3.6.2-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.6/x86_64/RPMS/mongodb-org-mongos-3.6.2-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.6/x86_64/RPMS/mongodb-org-tools-3.6.2-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.6/x86_64/RPMS/mongodb-org-shell-3.6.2-1.el7.x86_64.rpm"
+               ],
+               "target": "rhel70"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-debugsymbols-3.6.2.tgz",
+                  "sha1": "4e0f3740a3a14413dfac19a68d956848f624a9b3",
+                  "sha256": "047629a8323f83f26e42ed3f9df51f94d1a1cb5fc5ba75c24b70e369f1e63430",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.6/x86_64/RPMS/mongodb-org-server-3.6.2-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.6/x86_64/RPMS/mongodb-org-mongos-3.6.2-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.6/x86_64/RPMS/mongodb-org-tools-3.6.2-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.6/x86_64/RPMS/mongodb-org-shell-3.6.2-1.el6.x86_64.rpm"
+               ],
+               "target": "rhel62"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse11-debugsymbols-3.6.2.tgz",
+                  "sha1": "42642de8fac02257e6af539c14a182fb62c90bd6",
+                  "sha256": "92e6e7d52cc986b1e8f596049d931387e0b86ac6225410de7e0deaac3789adb8",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse11-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.6/x86_64/RPMS/mongodb-org-server-3.6.2-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.6/x86_64/RPMS/mongodb-org-mongos-3.6.2-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.6/x86_64/RPMS/mongodb-org-tools-3.6.2-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.6/x86_64/RPMS/mongodb-org-shell-3.6.2-1.suse11.x86_64.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian71-debugsymbols-3.6.2.tgz",
+                  "sha1": "39c49fb3656ed65b35d332579d2b927695d08e93",
+                  "sha256": "eba29a5cf6ac6e2faa79a6c0b52d5247c8b1cc54a0541fb72a29734bc57d5c1b",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian71-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.6/main/binary-amd64/mongodb-org-server_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.6/main/binary-amd64/mongodb-org-mongos_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.6/main/binary-amd64/mongodb-org-tools_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.6/main/binary-amd64/mongodb-org-shell_3.6.2_amd64.deb"
+               ],
+               "target": "debian71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-debugsymbols-3.6.2.tgz",
+                  "sha1": "95a0948248a71866f9e4e70124815d0274c6e7d9",
+                  "sha256": "f2e923a85c85db7b01ce2f0eded5d4649f4e9c5e8e9ce187ebbbf10f89a99ebc",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.6/x86_64/RPMS/mongodb-org-server-3.6.2-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.6/x86_64/RPMS/mongodb-org-mongos-3.6.2-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.6/x86_64/RPMS/mongodb-org-tools-3.6.2-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.6/x86_64/RPMS/mongodb-org-shell-3.6.2-1.amzn1.x86_64.rpm"
+               ],
+               "target": "amazon"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/osx/mongodb-osx-x86_64-enterprise-debugsymbols-3.6.2.tgz",
+                  "sha1": "02006650cf61acc9b890bb96c9f946f520f548dc",
+                  "sha256": "d50a1ee4b21c9fe29aa5da8796eb4413e3b469db90f7efbaeeee953ab7ba4e3d",
+                  "url": "https://downloads.mongodb.com/osx/mongodb-osx-x86_64-enterprise-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "target": "osx"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse12-debugsymbols-3.6.2.tgz",
+                  "sha1": "72fa875a2932ba22a9ea0f510146775d83bb961f",
+                  "sha256": "c8d36bc480c4d5e1160736ccc1d2e10fee9a2cce2bee76e70fdf7a4a0251a1e5",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse12-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-server-3.6.2-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-mongos-3.6.2-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-tools-3.6.2-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.6/x86_64/RPMS/mongodb-enterprise-shell-3.6.2-1.suse12.x86_64.rpm"
+               ],
+               "target": "suse12"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-debugsymbols-3.6.2.tgz",
+                  "sha1": "08ccfc3b662bb8da67a48681ed31b7951456d172",
+                  "sha256": "21c438952c364e4c8a2180475f6dfd26e7b0b499fc94cb630f65c932ba878173",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.6/x86_64/RPMS/mongodb-org-server-3.6.2-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.6/x86_64/RPMS/mongodb-org-mongos-3.6.2-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.6/x86_64/RPMS/mongodb-org-tools-3.6.2-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.6/x86_64/RPMS/mongodb-org-shell-3.6.2-1.suse12.x86_64.rpm"
+               ],
+               "target": "suse12"
+            },
+            {
+               "arch": "arm64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-arm64-enterprise-ubuntu1604-debugsymbols-3.6.2.tgz",
+                  "sha1": "05b8bfb88f905eeb08c267b3d6ef93658edbb6d1",
+                  "sha256": "73ec4e840f9f7bc477e64aca00a46d43c8a26e5d2575ba73f010b6f09dcf1f6c",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-arm64-enterprise-ubuntu1604-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-arm64/mongodb-enterprise-server_3.6.2_arm64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-arm64/mongodb-enterprise-mongos_3.6.2_arm64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-arm64/mongodb-enterprise-tools_3.6.2_arm64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-arm64/mongodb-enterprise-shell_3.6.2_arm64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "arm64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-arm64-ubuntu1604-debugsymbols-3.6.2.tgz",
+                  "sha1": "95df03ffd6f9b1d7f2cfcc112a5c03877a0b9391",
+                  "sha256": "92f413a04bced42d98637e423c689427d69cb2ad3b3d34a5d32dee537f091cb8",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-arm64-ubuntu1604-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.6/multiverse/binary-arm64/mongodb-org-server_3.6.2_arm64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.6/multiverse/binary-arm64/mongodb-org-mongos_3.6.2_arm64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.6/multiverse/binary-arm64/mongodb-org-tools_3.6.2_arm64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.6/multiverse/binary-arm64/mongodb-org-shell_3.6.2_arm64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian81-debugsymbols-3.6.2.tgz",
+                  "sha1": "3877835cf29f197c738788563184a16a091935d2",
+                  "sha256": "3aabad7ec9340214404d13f7da1e115ab114a8c714c2c468fe20b7e1331fa1ec",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian81-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.6/main/binary-amd64/mongodb-enterprise-server_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.6/main/binary-amd64/mongodb-enterprise-mongos_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.6/main/binary-amd64/mongodb-enterprise-tools_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.6/main/binary-amd64/mongodb-enterprise-shell_3.6.2_amd64.deb"
+               ],
+               "target": "debian81"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian81-debugsymbols-3.6.2.tgz",
+                  "sha1": "4005d05b1da5410f15c5ef386a6eb1ac1b854c8b",
+                  "sha256": "bf0198f7ab787dbf03687fd992932a1e323f4c04b75454f7a5ae83e1ce9e6507",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian81-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.6/main/binary-amd64/mongodb-org-server_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.6/main/binary-amd64/mongodb-org-mongos_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.6/main/binary-amd64/mongodb-org-tools_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.6/main/binary-amd64/mongodb-org-shell_3.6.2_amd64.deb"
+               ],
+               "target": "debian81"
+            },
+            {
+               "arch": "ppc64le",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel71-debugsymbols-3.6.2.tgz",
+                  "sha1": "c0caf368910e6c779e3484ee948a8bfeff09d567",
+                  "sha256": "6afb30e05b18bad02c74a7f988afe0d4f7bf926b706f846816e803b1b9a1f460",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel71-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.6/ppc64le/RPMS/mongodb-enterprise-server-3.6.2-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.6/ppc64le/RPMS/mongodb-enterprise-mongos-3.6.2-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.6/ppc64le/RPMS/mongodb-enterprise-tools-3.6.2-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.6/ppc64le/RPMS/mongodb-enterprise-shell-3.6.2-1.el7.ppc64le.rpm"
+               ],
+               "target": "rhel71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1604-debugsymbols-3.6.2.tgz",
+                  "sha1": "ba27e05a25fdb0b99d5ab6d28e8d1b1f091992db",
+                  "sha256": "33a2bc661b60e4e527a6a25ae62f75e94cd3d5e09a996bfa4e69828c0315e6f6",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1604-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-server_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-mongos_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-tools_3.6.2_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-amd64/mongodb-enterprise-shell_3.6.2_amd64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-debugsymbols-3.6.2.tgz",
+                  "sha1": "6f9b8b81448e8e879e2532098815ae9003c7b899",
+                  "sha256": "3990e1ee0912c75a7322333b2f835df30126eafd35d31838fdbfa77e6695e653",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.6.2.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-server_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-mongos_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-tools_3.6.2_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.6/multiverse/binary-amd64/mongodb-org-shell_3.6.2_amd64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "s390x",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-ubuntu1604-debugsymbols-3.6.2.tgz",
+                  "sha1": "8bc8ed4665a31c5b94e7980d12dac7eb7ab88801",
+                  "sha256": "a300afdf6a42cae563c64f626faa6c09ec63f77c211044d160cda1bb65180439",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-ubuntu1604-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-s390x/mongodb-enterprise-server_3.6.2_s390x.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-s390x/mongodb-enterprise-mongos_3.6.2_s390x.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-s390x/mongodb-enterprise-tools_3.6.2_s390x.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-s390x/mongodb-enterprise-shell_3.6.2_s390x.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "ppc64le",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-ubuntu1604-debugsymbols-3.6.2.tgz",
+                  "sha1": "60dd28ecd38fc41efd26628f32a538785567bdc5",
+                  "sha256": "70b5839af2498f30b77f8e2c9cfd8a860f4048fce3c07726ac39b25e62093fc4",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-ubuntu1604-3.6.2.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-ppc64el/mongodb-enterprise-server_3.6.2_ppc64el.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-ppc64el/mongodb-enterprise-mongos_3.6.2_ppc64el.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-ppc64el/mongodb-enterprise-tools_3.6.2_ppc64el.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.6/multiverse/binary-ppc64el/mongodb-enterprise-shell_3.6.2_ppc64el.deb"
+               ],
+               "target": "ubuntu1604"
+            }
+         ],
+         "githash": "489d177dbd0f0420a8ca04d39fd78d0a2c539420",
+         "notes": "http://docs.mongodb.org/manual/release-notes/3.6/",
+         "production_release": true,
+         "release_candidate": false,
+         "version": "3.6.2"
+      },
+      {
+         "changes": "https://jira.mongodb.org/issues/?jql=project%20%3D%20SERVER%20AND%20fixVersion%20%3D%20%223.4.12%22%20ORDER%20BY%20status%20DESC%2C%20priority%20DESC",
+         "current": true,
+         "date": "02/07/2018",
+         "development_release": false,
+         "downloads": [
+            {
+               "archive": {
+                  "sha1": "be1a0fb78128b8d70ba2495ead520c19486ed980",
+                  "sha256": "0595d23a53a04ed5b7663fbaca413f91280602a6f5057edf42b0eb9631dd1fd2",
+                  "url": "https://fastdl.mongodb.org/src/mongodb-src-r3.4.12.zip"
+               },
+               "edition": "source"
+            },
+            {
+               "archive": {
+                  "sha1": "77a9de1d4c9422e1381a216b7aab5857585893f1",
+                  "sha256": "ed38aa14ef4ad71bb916e0cabbffb5b327d0ddaa3fac6d1f1c60cc6db1b136ba",
+                  "url": "https://fastdl.mongodb.org/src/mongodb-src-r3.4.12.tar.gz"
+               },
+               "edition": "source"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debugsymbols-3.4.12.tgz",
+                  "sha1": "d2480042d69b9958d1dc769923dbdaecc35d7546",
+                  "sha256": "f450fef79701f11d617e0ab11b2e9b59c6b8ad0cf18859aa56e14cc2e7fc90c1",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.12.tgz"
+               },
+               "edition": "base",
+               "target": "linux_x86_64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-debugsymbols-3.4.12.tgz",
+                  "sha1": "755783b7681f144f980f186e6558c41d1f6a830c",
+                  "sha256": "18267321aa995a757dab8bb63a660a0d61f091eb45b3d9701e68bfdc838c8ab7",
+                  "url": "https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-3.4.12.tgz"
+               },
+               "edition": "base",
+               "target": "osx"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "5b8c17f1b225ddccaa2786c8726cdaa67a4af0c3",
+                  "sha256": "9fc135d3537a3cb5bab85a908c11d4ab9749ac92c635728a4eab6065915229c0",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-3.4.12.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-3.4.12-signed.msi",
+               "target": "windows_x86_64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "55627fa8475ef372c697374c75a8e6481feed3c6",
+                  "sha256": "e8329793f1c1ff6055a83995c9cbcb06762cc48110ad6eb569b03a8ec4642fdd",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-3.4.12.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-3.4.12-signed.msi",
+               "target": "windows_x86_64-2008plus"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amzn64-debugsymbols-3.4.12.tgz",
+                  "sha1": "221927f2adfee5e95c867ce7f6fc3a8b1dd65c63",
+                  "sha256": "8dbe8e51a2798f078c5f74db675210c544efbf85c7fb3bd5ed408832ae04f938",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amzn64-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-server-3.4.12-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-mongos-3.4.12-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-tools-3.4.12-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/amazon/2013.03/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-shell-3.4.12-1.amzn1.x86_64.rpm"
+               ],
+               "target": "amzn64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel62-debugsymbols-3.4.12.tgz",
+                  "sha1": "67b41c450d05ef467f917a1ea181b7d05ea58564",
+                  "sha256": "c7f08fbe514dbc9c294aea555c151809b0ec5953835d7cf94de2876035f2dd07",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel62-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-server-3.4.12-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-mongos-3.4.12-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-tools-3.4.12-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-shell-3.4.12-1.el6.x86_64.rpm"
+               ],
+               "target": "rhel62"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse11-debugsymbols-3.4.12.tgz",
+                  "sha1": "f58533fd24c08cb992b1c70727376ce9272c7a58",
+                  "sha256": "2bf66653be9425840df68490c94abab4703b1880cc1d06690115323462644d60",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse11-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-server-3.4.12-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-mongos-3.4.12-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-tools-3.4.12-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-shell-3.4.12-1.suse11.x86_64.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-debugsymbols-3.4.12.tgz",
+                  "sha1": "bfe5c2283edfb09317fb1aa1c88657faadffc385",
+                  "sha256": "6d0482da7893de74a25718c9381f0b13d9638fa43c7a4287f2eadd58ede02e59",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-server_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-mongos_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-tools_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-shell_3.4.12_amd64.deb"
+               ],
+               "target": "ubuntu1404"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1204-debugsymbols-3.4.12.tgz",
+                  "sha1": "b73469b70d99e55ae95fcb8786ca3fe758398007",
+                  "sha256": "0cff92122e02876c44cb2fe0ef9bf86f4bfc10b1e9e62377be167a9610435be1",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1204-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-server_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-mongos_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-tools_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-shell_3.4.12_amd64.deb"
+               ],
+               "target": "ubuntu1204"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "84d54145a0d824b9b26e43e9c455456a4e07a772",
+                  "sha256": "48e1b05124743adafab18cf2fafdfe11d07263145dca9405ed560967c3cd619b",
+                  "url": "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.4.12.zip"
+               },
+               "edition": "enterprise",
+               "msi": "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.4.12-signed.msi",
+               "packages": [
+                  "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.4.12-signed.msi"
+               ],
+               "target": "windows"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-debugsymbols-3.4.12.tgz",
+                  "sha1": "5ca3617ead89d16eba5d6660c9875a9e513b8d49",
+                  "sha256": "cb67b7876121cc9a2c07f886e4d951e7974ad48d2e66cca0bc2e092e78484f55",
+                  "url": "https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-3.4.12.tgz"
+               },
+               "edition": "base",
+               "target": "osx-ssl"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "0035226737078f005a2c42bf9bb3b622609b65c4",
+                  "sha256": "8346ea1b528b9a31713f576d674024008a57ed5987a9753fbd52eac8a2168f83",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.4.12.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.4.12-signed.msi",
+               "target": "windows_x86_64-2008plus-ssl"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel70-debugsymbols-3.4.12.tgz",
+                  "sha1": "b679b6223f117a91ed4f0085490e0fff7dd242fb",
+                  "sha256": "43a35d7df061ad85dd01aca4360ab34deb46be9948cadcbb4c808b5af68023ea",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel70-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-server-3.4.12-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-mongos-3.4.12-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-tools-3.4.12-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-shell-3.4.12-1.el7.x86_64.rpm"
+               ],
+               "target": "rhel70"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian71-debugsymbols-3.4.12.tgz",
+                  "sha1": "e246cd27fb765457800abeced9c63eb07ec453b9",
+                  "sha256": "5525474f719d8a1d06c4fec5768df60f175dcfdf7a1e3d258ae29310cfe0e0f2",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian71-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.4/main/binary-amd64/mongodb-enterprise-server_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.4/main/binary-amd64/mongodb-enterprise-mongos_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.4/main/binary-amd64/mongodb-enterprise-tools_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.4/main/binary-amd64/mongodb-enterprise-shell_3.4.12_amd64.deb"
+               ],
+               "target": "debian71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-debugsymbols-3.4.12.tgz",
+                  "sha1": "9433d2032c1c5f947ad0e850d39016e122cc921a",
+                  "sha256": "f163c4fa01923cead802389ae7be2354e67b1ac05f9002a4989a2f49447877a7",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-server_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-mongos_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-tools_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-shell_3.4.12_amd64.deb"
+               ],
+               "target": "ubuntu1404"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-debugsymbols-3.4.12.tgz",
+                  "sha1": "1bd7acd999adcfb281547c7ef2320b12f4a506e4",
+                  "sha256": "d0bce450e712e2944c2df0aea38e242ada018ec4f8da7a0d8f742000de4da634",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-server_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-mongos_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-tools_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-shell_3.4.12_amd64.deb"
+               ],
+               "target": "ubuntu1204"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-debugsymbols-3.4.12.tgz",
+                  "sha1": "ee7f127c34b5ba8324875144b3c65ca6ac19d463",
+                  "sha256": "e3ee16be27c95ff0b14b6d4059edecc581f4f1e10b007671ea895d5bf436d88c",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.4/x86_64/RPMS/mongodb-org-server-3.4.12-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.4/x86_64/RPMS/mongodb-org-mongos-3.4.12-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.4/x86_64/RPMS/mongodb-org-tools-3.4.12-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.4/x86_64/RPMS/mongodb-org-shell-3.4.12-1.el7.x86_64.rpm"
+               ],
+               "target": "rhel70"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-debugsymbols-3.4.12.tgz",
+                  "sha1": "b14ce2a92011f5c21b2294ee717ca6166f7a2706",
+                  "sha256": "c3ba72d352db4565c78e2a6067d49aecefebe89fdbd2bfca3daf670a8953ad81",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.4/x86_64/RPMS/mongodb-org-server-3.4.12-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.4/x86_64/RPMS/mongodb-org-mongos-3.4.12-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.4/x86_64/RPMS/mongodb-org-tools-3.4.12-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.4/x86_64/RPMS/mongodb-org-shell-3.4.12-1.el6.x86_64.rpm"
+               ],
+               "target": "rhel62"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse11-debugsymbols-3.4.12.tgz",
+                  "sha1": "9f93dfe0758e868022321f1d3619fff64daf1f35",
+                  "sha256": "4280b569fd78138ed9bebc672ab10ce4aeefe9d296d3ab0bf15ab3f9a4b18e3d",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse11-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.4/x86_64/RPMS/mongodb-org-server-3.4.12-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.4/x86_64/RPMS/mongodb-org-mongos-3.4.12-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.4/x86_64/RPMS/mongodb-org-tools-3.4.12-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.4/x86_64/RPMS/mongodb-org-shell-3.4.12-1.suse11.x86_64.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian71-debugsymbols-3.4.12.tgz",
+                  "sha1": "e5fadf00b82ebc32fe30a2662be7fad6546ae785",
+                  "sha256": "dbe231fa500038594b9adfd9334496a1fd54bc0c06c5094c15095aac0ca32e54",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian71-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.4/main/binary-amd64/mongodb-org-server_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.4/main/binary-amd64/mongodb-org-mongos_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.4/main/binary-amd64/mongodb-org-tools_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.4/main/binary-amd64/mongodb-org-shell_3.4.12_amd64.deb"
+               ],
+               "target": "debian71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-debugsymbols-3.4.12.tgz",
+                  "sha1": "8a6c6e3bee3ceb69d8b9b5a6bf08adfb4d780e51",
+                  "sha256": "09f6d3110743d62ec1927239f1424ada95fd3ced66e0446d0c1612ddced5df2b",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.4/x86_64/RPMS/mongodb-org-server-3.4.12-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.4/x86_64/RPMS/mongodb-org-mongos-3.4.12-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.4/x86_64/RPMS/mongodb-org-tools-3.4.12-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.4/x86_64/RPMS/mongodb-org-shell-3.4.12-1.amzn1.x86_64.rpm"
+               ],
+               "target": "amazon"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/osx/mongodb-osx-x86_64-enterprise-debugsymbols-3.4.12.tgz",
+                  "sha1": "53a64648d53e542e2676a9010ea021b4bb27ab9a",
+                  "sha256": "849b1b298d53f6ba15bf442ffe8d177d3ba8860a7654c9f3e927dd2e105dfb8b",
+                  "url": "https://downloads.mongodb.com/osx/mongodb-osx-x86_64-enterprise-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "target": "osx"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse12-debugsymbols-3.4.12.tgz",
+                  "sha1": "cceae7cb916f3777de50b0194cff495992dbabe0",
+                  "sha256": "2937e33b169df5d50f21e598c57e82e72e067fa9f0fb60f3b3ebcdec62744f74",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse12-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-server-3.4.12-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-mongos-3.4.12-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-tools-3.4.12-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.4/x86_64/RPMS/mongodb-enterprise-shell-3.4.12-1.suse12.x86_64.rpm"
+               ],
+               "target": "suse12"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-debugsymbols-3.4.12.tgz",
+                  "sha1": "c19e9b2b339f0791c03cbe4fb54e5ee316ee76f2",
+                  "sha256": "c141ba5234c754c8603ab277828429b82c442b94b5e5bf0a1626db5fa53192d4",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.4/x86_64/RPMS/mongodb-org-server-3.4.12-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.4/x86_64/RPMS/mongodb-org-mongos-3.4.12-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.4/x86_64/RPMS/mongodb-org-tools-3.4.12-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.4/x86_64/RPMS/mongodb-org-shell-3.4.12-1.suse12.x86_64.rpm"
+               ],
+               "target": "suse12"
+            },
+            {
+               "arch": "arm64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-arm64-enterprise-ubuntu1604-debugsymbols-3.4.12.tgz",
+                  "sha1": "3da798123f40bccb6a7fd80e84c33720988d1b26",
+                  "sha256": "99f338cfadb1c3239540f367ecb01393cf8b4cec0a55f03742ab39ab2e81432d",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-arm64-enterprise-ubuntu1604-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-arm64/mongodb-enterprise-server_3.4.12_arm64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-arm64/mongodb-enterprise-mongos_3.4.12_arm64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-arm64/mongodb-enterprise-tools_3.4.12_arm64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-arm64/mongodb-enterprise-shell_3.4.12_arm64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "arm64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-arm64-ubuntu1604-debugsymbols-3.4.12.tgz",
+                  "sha1": "3fe8647abbe6161a6542507bb580494a6cb9e744",
+                  "sha256": "8763c4a0260e143add60aa5bf75a3495428d5833c8a9a0a2de5fef67a4763a7d",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-arm64-ubuntu1604-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.4/multiverse/binary-arm64/mongodb-org-server_3.4.12_arm64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.4/multiverse/binary-arm64/mongodb-org-mongos_3.4.12_arm64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.4/multiverse/binary-arm64/mongodb-org-tools_3.4.12_arm64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.4/multiverse/binary-arm64/mongodb-org-shell_3.4.12_arm64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian81-debugsymbols-3.4.12.tgz",
+                  "sha1": "a11ec196cac5f06a45ba9445a295f0a7b4949dc6",
+                  "sha256": "dabd1615ea4f93b525d348fec85940e3fac6a43d2e93af87fcf244ca72811a28",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian81-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.4/main/binary-amd64/mongodb-enterprise-server_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.4/main/binary-amd64/mongodb-enterprise-mongos_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.4/main/binary-amd64/mongodb-enterprise-tools_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.4/main/binary-amd64/mongodb-enterprise-shell_3.4.12_amd64.deb"
+               ],
+               "target": "debian81"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian81-debugsymbols-3.4.12.tgz",
+                  "sha1": "deac1fe9ecbc2dc44cbbd722af0a783247e61cbf",
+                  "sha256": "d5395d29c40c6f914658c293a9d4569f90f2362a8a82d6ca394f0f364c4ade63",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian81-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.4/main/binary-amd64/mongodb-org-server_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.4/main/binary-amd64/mongodb-org-mongos_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.4/main/binary-amd64/mongodb-org-tools_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.4/main/binary-amd64/mongodb-org-shell_3.4.12_amd64.deb"
+               ],
+               "target": "debian81"
+            },
+            {
+               "arch": "ppc64le",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel71-debugsymbols-3.4.12.tgz",
+                  "sha1": "023678c8f0e1b083db94994dbf4ee9dba70208ac",
+                  "sha256": "fbf80d2db8e77901550e39da638b3ff4bf685daadec1683606d4551e0ee13e7a",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel71-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.4/ppc64le/RPMS/mongodb-enterprise-server-3.4.12-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.4/ppc64le/RPMS/mongodb-enterprise-mongos-3.4.12-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.4/ppc64le/RPMS/mongodb-enterprise-tools-3.4.12-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.4/ppc64le/RPMS/mongodb-enterprise-shell-3.4.12-1.el7.ppc64le.rpm"
+               ],
+               "target": "rhel71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1604-debugsymbols-3.4.12.tgz",
+                  "sha1": "fc30284bffba95a8e14b34e8c37614b26fbab516",
+                  "sha256": "fd7489ca5a5f240219c4d23cd14cac34147a252b861cc5a0eeb35ed0d3f3dcf4",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1604-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-server_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-mongos_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-tools_3.4.12_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-amd64/mongodb-enterprise-shell_3.4.12_amd64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-debugsymbols-3.4.12.tgz",
+                  "sha1": "e8855c75e87879d9210e58607c8f6c400d036135",
+                  "sha256": "06ea27e5b884b9dd7e53783549df7b9f8c2c471b70274231b4fcb578a35aef85",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.4.12.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-server_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-mongos_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-tools_3.4.12_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.4/multiverse/binary-amd64/mongodb-org-shell_3.4.12_amd64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "s390x",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-ubuntu1604-debugsymbols-3.4.12.tgz",
+                  "sha1": "ae690d23070a854aa9f74455974653a4badcb81a",
+                  "sha256": "e2514b2f689abd42c82cc91357f32cf5642afc7f15673966e371bdac3722a889",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-ubuntu1604-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-s390x/mongodb-enterprise-server_3.4.12_s390x.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-s390x/mongodb-enterprise-mongos_3.4.12_s390x.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-s390x/mongodb-enterprise-tools_3.4.12_s390x.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-s390x/mongodb-enterprise-shell_3.4.12_s390x.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "ppc64le",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-ubuntu1604-debugsymbols-3.4.12.tgz",
+                  "sha1": "82777dd3ed23f964dbcc9558860b52c8726d9953",
+                  "sha256": "f357aadbb9342b8554d15252ae9a30e7bf88a77fb523e84f94469b7162404769",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-ubuntu1604-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-ppc64el/mongodb-enterprise-server_3.4.12_ppc64el.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-ppc64el/mongodb-enterprise-mongos_3.4.12_ppc64el.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-ppc64el/mongodb-enterprise-tools_3.4.12_ppc64el.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.4/multiverse/binary-ppc64el/mongodb-enterprise-shell_3.4.12_ppc64el.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "s390x",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-suse12-debugsymbols-3.4.12.tgz",
+                  "sha1": "5a0513b8e32e6d467490b452465d5b1fa2a7eb26",
+                  "sha256": "a374949d4664c8781e9cfd7961b795d3c9d7706d1f26e5bcee5c15eaeab9aa71",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-suse12-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-server-3.4.12-1.suse12.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-mongos-3.4.12-1.suse12.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-tools-3.4.12-1.suse12.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-shell-3.4.12-1.suse12.s390x.rpm"
+               ],
+               "target": "suse12"
+            },
+            {
+               "arch": "s390x",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-suse11-debugsymbols-3.4.12.tgz",
+                  "sha1": "b61e2bc1df4bc5e9fc41e2829ddd1d4ab56192d1",
+                  "sha256": "6371400cd6ebe10991bd6d817e79dc4be5de13679b14727c32b73d80e1e536ea",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-suse11-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-server-3.4.12-1.suse11.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-mongos-3.4.12-1.suse11.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-tools-3.4.12-1.suse11.s390x.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-shell-3.4.12-1.suse11.s390x.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "s390x",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel67-debugsymbols-3.4.12.tgz",
+                  "sha1": "cd073923ff1fe6c205ae7a9bc38d98102a962df2",
+                  "sha256": "517c1a86602c1ea29f307d4990adcbd0fd886320aeb75568ef0647ef039363ae",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-s390x-enterprise-rhel67-3.4.12.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-server-3.4.12-1.el6.s390x.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-mongos-3.4.12-1.el6.s390x.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-tools-3.4.12-1.el6.s390x.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.4/s390x/RPMS/mongodb-enterprise-shell-3.4.12-1.el6.s390x.rpm"
+               ],
+               "target": "rhel67"
+            }
+         ],
+         "githash": "bfde702b19c1baad532ed183a871c12630c1bbba",
+         "notes": "http://docs.mongodb.org/manual/release-notes/3.4/",
+         "production_release": true,
+         "release_candidate": false,
+         "version": "3.4.12"
+      },
+      {
+         "changes": "https://jira.mongodb.org/issues/?jql=project%20%3D%20SERVER%20AND%20fixVersion%20%3D%20%223.2.19%22%20ORDER%20BY%20status%20DESC%2C%20priority%20DESC",
+         "current": true,
+         "date": "02/06/2018",
+         "development_release": false,
+         "downloads": [
+            {
+               "archive": {
+                  "sha1": "9ef808c8910a64536111e620c02cd69f95dc7b64",
+                  "sha256": "f8910e285d7ad7ed17f94a3be7ea7a29f07ace377db27aa516519bea543607d9",
+                  "url": "https://fastdl.mongodb.org/src/mongodb-src-r3.2.19.zip"
+               },
+               "edition": "source"
+            },
+            {
+               "archive": {
+                  "sha1": "f7f9ce7fa114f878cfe7babed172f80f53ae5845",
+                  "sha256": "a36551e1e6d6d256ec4d1d6bad110f3f762c901536d94880de0b961960ce5d49",
+                  "url": "https://fastdl.mongodb.org/src/mongodb-src-r3.2.19.tar.gz"
+               },
+               "edition": "source"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debugsymbols-3.2.19.tgz",
+                  "sha1": "fdf017fa116a8558a62b1099fd73a5d81075f838",
+                  "sha256": "68cbe79498ac32279f9c9db3c4b76a092a79680dab27db7f0bd14720db1764e3",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.2.19.tgz"
+               },
+               "edition": "base",
+               "target": "linux_x86_64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-debugsymbols-3.2.19.tgz",
+                  "sha1": "d484c6a9b4f0a5c68ba3aac39ab9e80bdffd599b",
+                  "sha256": "a610f5c3240bd497f4a63c48239f936d7a6f14c21c884e2bbef4920a9a6277d9",
+                  "url": "https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-3.2.19.tgz"
+               },
+               "edition": "base",
+               "target": "osx"
+            },
+            {
+               "arch": "i686",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-i686-debugsymbols-3.2.19.tgz",
+                  "sha1": "0665f8f6e5a65107f39c2309d114fd49e08b9b8b",
+                  "sha256": "c3325267ecdf889093f06d884a31389469c868b110647440a42803701c2ffe64",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-i686-3.2.19.tgz"
+               },
+               "edition": "base",
+               "target": "linux_i686"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "8c74d87c06387d971939c5b9baddde37a7d2a7cc",
+                  "sha256": "154fa535dc05d96ec5f44d832c8694c088cccbd961bc6e827a9bb2bae4c8f6dd",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-3.2.19.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-3.2.19-signed.msi",
+               "target": "windows_x86_64"
+            },
+            {
+               "arch": "i386",
+               "archive": {
+                  "sha1": "ad3af9f981d72b244a0ad0f375b88ddc177bb190",
+                  "sha256": "9e57575ef6564e4c7161db6940d15e29e12d729e9052dbd940732b61f7128332",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-i386-3.2.19.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-i386-3.2.19-signed.msi",
+               "target": "windows_i686"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "a30598aaadac8a32ea878ceeb8cc4e0d4340f9c9",
+                  "sha256": "daae7ac64a314f0a962f42fe5d80a8d8def4af03925dc80df6f5ccdad1870d01",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-3.2.19.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-3.2.19-signed.msi",
+               "target": "windows_x86_64-2008plus"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amzn64-debugsymbols-3.2.19.tgz",
+                  "sha1": "5a13ea16a658a2965f8a8562bd4143dac295b7c2",
+                  "sha256": "28522f40a98549d4432bdce6dca0f3ba1e5e455b896228e8e693d5fdef30814f",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amzn64-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "target": "amzn64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel62-debugsymbols-3.2.19.tgz",
+                  "sha1": "a4f36a149157b6007a60015e18cdc43d0b341a21",
+                  "sha256": "5a0e57131f890901ca1a49a5f321aba01c8d2eaa2178f58aa77674e1a351f92d",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel62-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-server-3.2.19-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-mongos-3.2.19-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-tools-3.2.19-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-shell-3.2.19-1.el6.x86_64.rpm"
+               ],
+               "target": "rhel62"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse11-debugsymbols-3.2.19.tgz",
+                  "sha1": "ef04d4e7ec2a3bf8ef0da74007b393ae76d52534",
+                  "sha256": "42d76abb62b1a310989925ee3cd4b36b3f35771d795c417efc34c3d7708549a7",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse11-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-server-3.2.19-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-mongos-3.2.19-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-tools-3.2.19-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-shell-3.2.19-1.suse11.x86_64.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-debugsymbols-3.2.19.tgz",
+                  "sha1": "9ef6e938d2d72d7f6a1846fb2d2af0e3f7fe9267",
+                  "sha256": "5b516f87d65df3f46dd10b0577b5fe9cde3786941fc741e2adea6752b91fcdd1",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-server_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-mongos_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-tools_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-shell_3.2.19_amd64.deb"
+               ],
+               "target": "ubuntu1404"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1204-debugsymbols-3.2.19.tgz",
+                  "sha1": "167f1e7f87e1fc02f21bf5bd0409e68cfc25d5e8",
+                  "sha256": "6d2581867e353a7679ac1ee442cb72c2d681daec1fd6c988183844610b1cd6e9",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1204-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-server_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-mongos_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-tools_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-shell_3.2.19_amd64.deb"
+               ],
+               "target": "ubuntu1204"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "2390a70646fe8b32d7455c0cab07ac7f38eb957d",
+                  "sha256": "5c8633fff5296a6c23772e0270d8b5f6b3d30cd32321a847a2fc1b4986074850",
+                  "url": "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.2.19.zip"
+               },
+               "edition": "enterprise",
+               "msi": "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.2.19-signed.msi",
+               "packages": [
+                  "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.2.19-signed.msi"
+               ],
+               "target": "windows"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel57-debugsymbols-3.2.19.tgz",
+                  "sha1": "f5bbe61726b30a83dda2a0bc5eb05d94976253ba",
+                  "sha256": "e96088698c0059c33643b8987fb76c2939115f3b26986a5e34fa0fb6b38138bc",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel57-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/5/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-server-3.2.19-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/5/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-mongos-3.2.19-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/5/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-tools-3.2.19-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/5/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-shell-3.2.19-1.el5.x86_64.rpm"
+               ],
+               "target": "rhel57"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-debugsymbols-3.2.19.tgz",
+                  "sha1": "3f0e1fe6be17d36b94fcec0e8be60f1babe4fdfa",
+                  "sha256": "7b722bd8a8955be817290d1ac78edf3132d48caaeb005026d92523ebb66e8498",
+                  "url": "https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-3.2.19.tgz"
+               },
+               "edition": "base",
+               "target": "osx-ssl"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "b1d542a4f5b03f9f30ddc29c25c52a6596f32460",
+                  "sha256": "776c8f19982ce402f24841890175c65659a39b35ab13c19a714bd10c3e0df0d2",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.2.19.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.2.19-signed.msi",
+               "target": "windows_x86_64-2008plus-ssl"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel70-debugsymbols-3.2.19.tgz",
+                  "sha1": "d64867cad8ba7858cb0540cd936fc9f771f68dd2",
+                  "sha256": "bbdd34e3752cb957135b89886550db089453ce1478d53c122213b9604ab295a2",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel70-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-server-3.2.19-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-mongos-3.2.19-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-tools-3.2.19-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-shell-3.2.19-1.el7.x86_64.rpm"
+               ],
+               "target": "rhel70"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian71-debugsymbols-3.2.19.tgz",
+                  "sha1": "9a5aa967715d0cc5b085dd9753ec884cad572598",
+                  "sha256": "9d04ed12863ccd97719c5e483c6815dfc149ef03e9c73820ccb483569683516a",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian71-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.2/main/binary-amd64/mongodb-enterprise-server_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.2/main/binary-amd64/mongodb-enterprise-mongos_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.2/main/binary-amd64/mongodb-enterprise-tools_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.2/main/binary-amd64/mongodb-enterprise-shell_3.2.19_amd64.deb"
+               ],
+               "target": "debian71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-debugsymbols-3.2.19.tgz",
+                  "sha1": "acf8269705140d40cdb76dd1e1b9f148a8066f55",
+                  "sha256": "21923a41739a4f724a00a41b1eb83a07891b46cb759b6009a3125867464812c6",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-server_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-mongos_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-tools_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-shell_3.2.19_amd64.deb"
+               ],
+               "target": "ubuntu1404"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-debugsymbols-3.2.19.tgz",
+                  "sha1": "3c93897f1c8c6f12232069f888c3f194b3a9a7aa",
+                  "sha256": "0e295d4506642aa831eef2c9082c4e73afb432896a8c95c7ae1cb754306fa7c8",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-server_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-mongos_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-tools_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-shell_3.2.19_amd64.deb"
+               ],
+               "target": "ubuntu1204"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-debugsymbols-3.2.19.tgz",
+                  "sha1": "f277339826a94986860b36580acebdd1cce5cf2f",
+                  "sha256": "f5d684d9dd037162bd9eb258f9705950552621424039f025d480881a5d12aa52",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.2/x86_64/RPMS/mongodb-org-server-3.2.19-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.2/x86_64/RPMS/mongodb-org-mongos-3.2.19-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.2/x86_64/RPMS/mongodb-org-tools-3.2.19-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.2/x86_64/RPMS/mongodb-org-shell-3.2.19-1.el7.x86_64.rpm"
+               ],
+               "target": "rhel70"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-debugsymbols-3.2.19.tgz",
+                  "sha1": "75dd70637f9dd91631b996a6e4a23533c1b7c713",
+                  "sha256": "7c16f2aebc44fe3215fb93b6aae9b43b979db24a105c3e36abfe5cc721649f7b",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.2/x86_64/RPMS/mongodb-org-server-3.2.19-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.2/x86_64/RPMS/mongodb-org-mongos-3.2.19-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.2/x86_64/RPMS/mongodb-org-tools-3.2.19-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.2/x86_64/RPMS/mongodb-org-shell-3.2.19-1.el6.x86_64.rpm"
+               ],
+               "target": "rhel62"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse11-debugsymbols-3.2.19.tgz",
+                  "sha1": "384fddad3aa28ced9a29256fdcc75eb92465b20e",
+                  "sha256": "b8afc376a625812b59908c7338e9fcc42253427aad3f0fb1af7b6f970d8899b8",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse11-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.2/x86_64/RPMS/mongodb-org-server-3.2.19-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.2/x86_64/RPMS/mongodb-org-mongos-3.2.19-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.2/x86_64/RPMS/mongodb-org-tools-3.2.19-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.2/x86_64/RPMS/mongodb-org-shell-3.2.19-1.suse11.x86_64.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian71-debugsymbols-3.2.19.tgz",
+                  "sha1": "a4b2b7ca952967f667c0177713846cd3f9f06dcd",
+                  "sha256": "213bb7eb7f801fef2dbd043c76536cda4a6c286a4e733896c55b7053d15b3164",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian71-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.2/main/binary-amd64/mongodb-org-server_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.2/main/binary-amd64/mongodb-org-mongos_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.2/main/binary-amd64/mongodb-org-tools_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.2/main/binary-amd64/mongodb-org-shell_3.2.19_amd64.deb"
+               ],
+               "target": "debian71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-debugsymbols-3.2.19.tgz",
+                  "sha1": "cb1908a26db19d1b9b43ee1bfcc9e8be7241f9ff",
+                  "sha256": "d0c6c3be6a784680130d1a36c4b76f55e11977c1be385dc209b8b981b9083059",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.2/x86_64/RPMS/mongodb-org-server-3.2.19-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.2/x86_64/RPMS/mongodb-org-mongos-3.2.19-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.2/x86_64/RPMS/mongodb-org-tools-3.2.19-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.2/x86_64/RPMS/mongodb-org-shell-3.2.19-1.amzn1.x86_64.rpm"
+               ],
+               "target": "amazon"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel55-debugsymbols-3.2.19.tgz",
+                  "sha1": "5618d31d94774cb6c1ae9944e411125e4a691b00",
+                  "sha256": "c86f624a71604f5adcfc46b06c8c6d872102d0dafe4f9fe3e83766df21d9d9fe",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel55-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/5/mongodb-org/3.2/x86_64/RPMS/mongodb-org-server-3.2.19-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/5/mongodb-org/3.2/x86_64/RPMS/mongodb-org-mongos-3.2.19-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/5/mongodb-org/3.2/x86_64/RPMS/mongodb-org-tools-3.2.19-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/5/mongodb-org/3.2/x86_64/RPMS/mongodb-org-shell-3.2.19-1.el5.x86_64.rpm"
+               ],
+               "target": "rhel55"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/osx/mongodb-osx-x86_64-enterprise-debugsymbols-3.2.19.tgz",
+                  "sha1": "5d9eb067fd03161764a7445399d1334f85b771a2",
+                  "sha256": "a59586b77623e52f2fbfb4f4dacb2ac28c1eb558c1c8cafbb1545a6bb78a49a7",
+                  "url": "https://downloads.mongodb.com/osx/mongodb-osx-x86_64-enterprise-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "target": "osx"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse12-debugsymbols-3.2.19.tgz",
+                  "sha1": "b0a4007fd0949addcdc0bb8078704a77a67d2de4",
+                  "sha256": "d62550c8dfc037cc70f552983408a7f31b6a7fa8388e11f4491a8ad813c17206",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse12-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-server-3.2.19-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-mongos-3.2.19-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-tools-3.2.19-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/12/mongodb-enterprise/3.2/x86_64/RPMS/mongodb-enterprise-shell-3.2.19-1.suse12.x86_64.rpm"
+               ],
+               "target": "suse12"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-debugsymbols-3.2.19.tgz",
+                  "sha1": "1dfa7cb4a3f78c4d60f406b578fda6558ef839d8",
+                  "sha256": "dac7b19f2ad65ec86ef1c3e10a993ed3faca7c015369be940c04ac6baf3c46a4",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse12-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.2/x86_64/RPMS/mongodb-org-server-3.2.19-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.2/x86_64/RPMS/mongodb-org-mongos-3.2.19-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.2/x86_64/RPMS/mongodb-org-tools-3.2.19-1.suse12.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/12/mongodb-org/3.2/x86_64/RPMS/mongodb-org-shell-3.2.19-1.suse12.x86_64.rpm"
+               ],
+               "target": "suse12"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian81-debugsymbols-3.2.19.tgz",
+                  "sha1": "97b9705f6a3b261cd33dc804dab6e46fce5494e9",
+                  "sha256": "6705bcb8997c35f4f37dab4fa4b3ce1bffea84775212bf3790d1cd655ff9b642",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian81-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.2/main/binary-amd64/mongodb-enterprise-server_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.2/main/binary-amd64/mongodb-enterprise-mongos_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.2/main/binary-amd64/mongodb-enterprise-tools_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/jessie/mongodb-enterprise/3.2/main/binary-amd64/mongodb-enterprise-shell_3.2.19_amd64.deb"
+               ],
+               "target": "debian81"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian81-debugsymbols-3.2.19.tgz",
+                  "sha1": "5e2be32fa84798ce0f632a93f3282188db587956",
+                  "sha256": "8d86284f575ec1fac8921e132aad902834dddd79202c24eaddfb0cfe48415790",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian81-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.2/main/binary-amd64/mongodb-org-server_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.2/main/binary-amd64/mongodb-org-mongos_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.2/main/binary-amd64/mongodb-org-tools_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/jessie/mongodb-org/3.2/main/binary-amd64/mongodb-org-shell_3.2.19_amd64.deb"
+               ],
+               "target": "debian81"
+            },
+            {
+               "arch": "ppc64le",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel71-debugsymbols-3.2.19.tgz",
+                  "sha1": "5d65ce35c9d9a011be3879923b707cdec2809ee6",
+                  "sha256": "c9db4e906e7f4f5a2310d4b392bb2f66e2d0d68540a9ffbf5fe45b3af70bb7a5",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-ppc64le-enterprise-rhel71-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.2/ppc64le/RPMS/mongodb-enterprise-server-3.2.19-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.2/ppc64le/RPMS/mongodb-enterprise-mongos-3.2.19-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.2/ppc64le/RPMS/mongodb-enterprise-tools-3.2.19-1.el7.ppc64le.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.2/ppc64le/RPMS/mongodb-enterprise-shell-3.2.19-1.el7.ppc64le.rpm"
+               ],
+               "target": "rhel71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1604-debugsymbols-3.2.19.tgz",
+                  "sha1": "c6027bc76badf9a91d09b8ec80b26c457bb14217",
+                  "sha256": "c64fbb3e6829afd707b53f8e79a861aed3a128fd0606c952fcdf1c7d2c08c280",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1604-3.2.19.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-server_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-mongos_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-tools_3.2.19_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/xenial/mongodb-enterprise/3.2/multiverse/binary-amd64/mongodb-enterprise-shell_3.2.19_amd64.deb"
+               ],
+               "target": "ubuntu1604"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-debugsymbols-3.2.19.tgz",
+                  "sha1": "19c27a239e01805a36f79a676877c71bdd38ddf5",
+                  "sha256": "0863e0f0971e9b50f6d89ebb9ee8675f70210a179d1ed181f2fe65706cc188b5",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.2.19.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-server_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-mongos_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-tools_3.2.19_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.2/multiverse/binary-amd64/mongodb-org-shell_3.2.19_amd64.deb"
+               ],
+               "target": "ubuntu1604"
+            }
+         ],
+         "githash": "a9f574de6a566a58b24d126b44a56718d181e989",
+         "notes": "http://docs.mongodb.org/manual/release-notes/3.2/",
+         "production_release": true,
+         "release_candidate": false,
+         "version": "3.2.19"
+      },
+      {
+         "changes": "https://jira.mongodb.org/issues/?jql=project%20%3D%20SERVER%20AND%20fixVersion%20%3D%20%223.0.15%22%20ORDER%20BY%20status%20DESC%2C%20priority%20DESC",
+         "current": true,
+         "date": "05/10/2017",
+         "development_release": false,
+         "downloads": [
+            {
+               "archive": {
+                  "url": "https://fastdl.mongodb.org/src/mongodb-src-r3.0.15.zip"
+               },
+               "edition": "source"
+            },
+            {
+               "archive": {
+                  "url": "https://fastdl.mongodb.org/src/mongodb-src-r3.0.15.tar.gz"
+               },
+               "edition": "source"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debugsymbols-3.0.15.tgz",
+                  "sha1": "e49c8c7c84c43ba75f8d52e6401a9286bc491847",
+                  "sha256": "b7b6138e0c642391bb8e5a949565897860412785653057b7bb9ba20541ba4fa6",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.0.15.tgz"
+               },
+               "edition": "base",
+               "target": "linux_x86_64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-debugsymbols-3.0.15.tgz",
+                  "sha1": "ccf0f40c6e167ee05edee9a6afd7a0fb62f64411",
+                  "sha256": "7aa8ac8fb63708fe34eb76849ba30acb0c487b2754fd77ab0823e48f8a40df77",
+                  "url": "https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-3.0.15.tgz"
+               },
+               "edition": "base",
+               "target": "osx"
+            },
+            {
+               "arch": "i686",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-i686-debugsymbols-3.0.15.tgz",
+                  "sha1": "8d85574584da81671bea7421386999ba51f7149b",
+                  "sha256": "8ae3a981d6efca15c9176071bfe0be37f6925b5de7c7653d80d6aa603db653d0",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-i686-3.0.15.tgz"
+               },
+               "edition": "base",
+               "target": "linux_i686"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "874c6436a0541930739ff9aad8e047f8e90008ce",
+                  "sha256": "d7c48d60bc0f025a75f2a502530f9aed1676ad81c3270eaafe62e1f37e723bf4",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-3.0.15.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-3.0.15-signed.msi",
+               "target": "windows_x86_64"
+            },
+            {
+               "arch": "i386",
+               "archive": {
+                  "sha1": "fb7a52c92ad32c5678a8ef2d2d18497d7837d777",
+                  "sha256": "653df4f94a94f5717a32cb41863833e4d53e0d41ae4b0a48b61a7ee3a3d49bb2",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-i386-3.0.15.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-i386-3.0.15-signed.msi",
+               "target": "windows_i686"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/sunos5/mongodb-sunos5-x86_64-debugsymbols-3.0.15.tgz",
+                  "sha1": "ed2004ce3fd7de8ad72f32194c53c921b60e9a51",
+                  "sha256": "f7383a44131ca0c8ca0976253238b714f09b7d931e99ff5b7b9b74ec97a0d278",
+                  "url": "https://fastdl.mongodb.org/sunos5/mongodb-sunos5-x86_64-3.0.15.tgz"
+               },
+               "edition": "base",
+               "target": "sunos5"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "a0f9e3eb8304cb90086e0f7aed6562bd8d1d3986",
+                  "sha256": "0635633ff543a8182e0fbd5ab5b25ce796454b05115bec187352820b5bdeeba6",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-3.0.15.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-3.0.15-signed.msi",
+               "target": "windows_x86_64-2008plus"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amzn64-debugsymbols-3.0.15.tgz",
+                  "sha1": "86f5350dff37c9c26c6d6206bac46f33748fd3fc",
+                  "sha256": "efecfd5f148e17a0f4eafd8b0af732c294eaafd0c8b26f1f8b97490c25ddfc75",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-amzn64-3.0.15.tgz"
+               },
+               "edition": "enterprise",
+               "target": "amzn64"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel62-debugsymbols-3.0.15.tgz",
+                  "sha1": "c92b631ee6b207a58767e2fecb781d19d856143d",
+                  "sha256": "201c6bdf0b79ea644532da334cbb114c4c0fa43950c65654f15dad784767a735",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel62-3.0.15.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-server-3.0.15-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-mongos-3.0.15-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-tools-3.0.15-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/6/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-shell-3.0.15-1.el6.x86_64.rpm"
+               ],
+               "target": "rhel62"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse11-debugsymbols-3.0.15.tgz",
+                  "sha1": "6e49260e7f77b39c9727aea1a744a5fb98cf8c47",
+                  "sha256": "fa87108c68d358bfd57f60a68dcf6777ef085ca1527cddc023a19fd0f8e2a8ff",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-suse11-3.0.15.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-server-3.0.15-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-mongos-3.0.15-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-tools-3.0.15-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.com/zypper/suse/11/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-shell-3.0.15-1.suse11.x86_64.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-debugsymbols-3.0.15.tgz",
+                  "sha1": "4b80447a97421e95e05a0ea633174e22b6f61419",
+                  "sha256": "dc8fa06b6d5dbabe2cf3f01f3ddd600c1061689757ee4803d1c988f5bd4214d2",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-3.0.15.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.0/multiverse/binary-amd64/mongodb-enterprise-server_3.0.15_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.0/multiverse/binary-amd64/mongodb-enterprise-mongos_3.0.15_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.0/multiverse/binary-amd64/mongodb-enterprise-tools_3.0.15_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/trusty/mongodb-enterprise/3.0/multiverse/binary-amd64/mongodb-enterprise-shell_3.0.15_amd64.deb"
+               ],
+               "target": "ubuntu1404"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1204-debugsymbols-3.0.15.tgz",
+                  "sha1": "6deca868b22282a2ba57770d00648a428ba2438d",
+                  "sha256": "30bb84c2eb1f171b48e45e5330e0b5b501fdb9f6e51e30ca1f2a4a7d94795ba9",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1204-3.0.15.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.0/multiverse/binary-amd64/mongodb-enterprise-server_3.0.15_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.0/multiverse/binary-amd64/mongodb-enterprise-mongos_3.0.15_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.0/multiverse/binary-amd64/mongodb-enterprise-tools_3.0.15_amd64.deb",
+                  "https://repo.mongodb.com/apt/ubuntu/dists/precise/mongodb-enterprise/3.0/multiverse/binary-amd64/mongodb-enterprise-shell_3.0.15_amd64.deb"
+               ],
+               "target": "ubuntu1204"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "5f154b31960ce5124a93ec592f8176db876c1be2",
+                  "sha256": "892399e5db119eddf4a916aade64d803fc8dc0f2be6566c8c2f4356ab2d978d6",
+                  "url": "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.0.15.zip"
+               },
+               "edition": "enterprise",
+               "msi": "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.0.15-signed.msi",
+               "packages": [
+                  "https://downloads.mongodb.com/win32/mongodb-win32-x86_64-enterprise-windows-64-3.0.15-signed.msi"
+               ],
+               "target": "windows"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel57-debugsymbols-3.0.15.tgz",
+                  "sha1": "1734e23c2a068f2c3790b431d299f25bcd8d0738",
+                  "sha256": "4cd6ae62893aad5fe02010cb59ecc7873e37686c3b2899ce0a797eed52e2f4bf",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel57-3.0.15.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/5/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-server-3.0.15-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/5/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-mongos-3.0.15-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/5/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-tools-3.0.15-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/5/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-shell-3.0.15-1.el5.x86_64.rpm"
+               ],
+               "target": "rhel57"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-debugsymbols-3.0.15.tgz",
+                  "sha1": "ccac05319174bba79b900fb77b7a498c94eb87c7",
+                  "sha256": "b0a7147e11ea3e14448222363a8277340ce157a3e104e0ae8fec62603fc25e68",
+                  "url": "https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-3.0.15.tgz"
+               },
+               "edition": "base",
+               "target": "osx-ssl"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "ae51fe30819f1fdd959c76da26077b8ff9cd7696",
+                  "sha256": "2e586f037be3c8ea61649188e8fd15da0be54f3034f62cd7ab5d43db5037c285",
+                  "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.0.15.zip"
+               },
+               "edition": "base",
+               "msi": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.0.15-signed.msi",
+               "target": "windows_x86_64-2008plus-ssl"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "sha1": "502afe89979bed052c620b61e271df6ee39267da",
+                  "sha256": "6af48f689d6bb2e3ac38279765f43eae4c444fe6e37bc4e3d560262fa9954e8f",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-rhel70-3.0.15.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-server-3.0.15-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-mongos-3.0.15-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-tools-3.0.15-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.com/yum/redhat/7/mongodb-enterprise/3.0/x86_64/RPMS/mongodb-enterprise-shell-3.0.15-1.el7.x86_64.rpm"
+               ],
+               "target": "rhel70"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian71-debugsymbols-3.0.15.tgz",
+                  "sha1": "1aaed9c40b4cc073d0d5497e2159522bc9e51530",
+                  "sha256": "ddb63703495dbf6ebc50ad2d054619da9ae95e855685034e1c56959efe6126d2",
+                  "url": "https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-debian71-3.0.15.tgz"
+               },
+               "edition": "enterprise",
+               "packages": [
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.0/main/binary-amd64/mongodb-enterprise-server_3.0.15_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.0/main/binary-amd64/mongodb-enterprise-mongos_3.0.15_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.0/main/binary-amd64/mongodb-enterprise-tools_3.0.15_amd64.deb",
+                  "https://repo.mongodb.com/apt/debian/dists/wheezy/mongodb-enterprise/3.0/main/binary-amd64/mongodb-enterprise-shell_3.0.15_amd64.deb"
+               ],
+               "target": "debian71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-debugsymbols-3.0.15.tgz",
+                  "sha1": "4588ef981eab37648c983676f055ce6a2e6316f4",
+                  "sha256": "39a5ddc4cad31b5e6261fb6dc19a8b7206ebe49fa1760d349c4e6ee8860fcf71",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-3.0.15.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.0/multiverse/binary-amd64/mongodb-org-server_3.0.15_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.0/multiverse/binary-amd64/mongodb-org-mongos_3.0.15_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.0/multiverse/binary-amd64/mongodb-org-tools_3.0.15_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/trusty/mongodb-org/3.0/multiverse/binary-amd64/mongodb-org-shell_3.0.15_amd64.deb"
+               ],
+               "target": "ubuntu1404"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-debugsymbols-3.0.15.tgz",
+                  "sha1": "57629e2b47b27633c15bc171104553789b952b07",
+                  "sha256": "146eee882dddf4925d4c8e7d6bddca51fa28c492df55f18c6cfbe76e17489697",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-3.0.15.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.0/multiverse/binary-amd64/mongodb-org-server_3.0.15_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.0/multiverse/binary-amd64/mongodb-org-mongos_3.0.15_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.0/multiverse/binary-amd64/mongodb-org-tools_3.0.15_amd64.deb",
+                  "https://repo.mongodb.org/apt/ubuntu/dists/precise/mongodb-org/3.0/multiverse/binary-amd64/mongodb-org-shell_3.0.15_amd64.deb"
+               ],
+               "target": "ubuntu1204"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-debugsymbols-3.0.15.tgz",
+                  "sha1": "8bf9bb65ec39c1bdb01a25bbbf538e2726bff3ec",
+                  "sha256": "80feec4a1e0cbb4a6d70f5c49f8c17f638f059620f158daafbab8d35d1b01e2e",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel70-3.0.15.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.0/x86_64/RPMS/mongodb-org-server-3.0.15-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.0/x86_64/RPMS/mongodb-org-mongos-3.0.15-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.0/x86_64/RPMS/mongodb-org-tools-3.0.15-1.el7.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.0/x86_64/RPMS/mongodb-org-shell-3.0.15-1.el7.x86_64.rpm"
+               ],
+               "target": "rhel70"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-debugsymbols-3.0.15.tgz",
+                  "sha1": "842b3594930d947dc5ddfe82e0deaa8e83710248",
+                  "sha256": "46bd6a1c512450524a4d54e807f0cafe018a629dd9a682fd3dfd548f4b1b9fdc",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-3.0.15.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.0/x86_64/RPMS/mongodb-org-server-3.0.15-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.0/x86_64/RPMS/mongodb-org-mongos-3.0.15-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.0/x86_64/RPMS/mongodb-org-tools-3.0.15-1.el6.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/6/mongodb-org/3.0/x86_64/RPMS/mongodb-org-shell-3.0.15-1.el6.x86_64.rpm"
+               ],
+               "target": "rhel62"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse11-debugsymbols-3.0.15.tgz",
+                  "sha1": "d55745eadce7ddec81519eaf273315eaedd1f125",
+                  "sha256": "62c71154c987bad5bf919c2e9b9ebd808936aea690e2da2c2fe8efd3aa9942ad",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-suse11-3.0.15.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.0/x86_64/RPMS/mongodb-org-server-3.0.15-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.0/x86_64/RPMS/mongodb-org-mongos-3.0.15-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.0/x86_64/RPMS/mongodb-org-tools-3.0.15-1.suse11.x86_64.rpm",
+                  "https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.0/x86_64/RPMS/mongodb-org-shell-3.0.15-1.suse11.x86_64.rpm"
+               ],
+               "target": "suse11"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian71-debugsymbols-3.0.15.tgz",
+                  "sha1": "af8526a6c3e9a0c68389d9b1e5452b9e17239381",
+                  "sha256": "d6ded940360148201b218df0b4a85a539b3383ee317c64a6f2df639a23caa3b1",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian71-3.0.15.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.0/main/binary-amd64/mongodb-org-server_3.0.15_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.0/main/binary-amd64/mongodb-org-mongos_3.0.15_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.0/main/binary-amd64/mongodb-org-tools_3.0.15_amd64.deb",
+                  "https://repo.mongodb.org/apt/debian/dists/wheezy/mongodb-org/3.0/main/binary-amd64/mongodb-org-shell_3.0.15_amd64.deb"
+               ],
+               "target": "debian71"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-debugsymbols-3.0.15.tgz",
+                  "sha1": "d79234359e1cf633b8c144eb9b1be39e13c02f3e",
+                  "sha256": "aaa4756fdd6e73679d89ac80750e9112069e2889f34f47e23aaf578ad7e71636",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-3.0.15.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.0/x86_64/RPMS/mongodb-org-server-3.0.15-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.0/x86_64/RPMS/mongodb-org-mongos-3.0.15-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.0/x86_64/RPMS/mongodb-org-tools-3.0.15-1.amzn1.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.0/x86_64/RPMS/mongodb-org-shell-3.0.15-1.amzn1.x86_64.rpm"
+               ],
+               "target": "amazon"
+            },
+            {
+               "arch": "x86_64",
+               "archive": {
+                  "debug_symbols": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel55-debugsymbols-3.0.15.tgz",
+                  "sha1": "2c7e7643dea2c8d73c53ce3d6e5e7a3e616eeeec",
+                  "sha256": "6a080acf318748750df50cd756fa43da4cd95719a4339548e989934ef54b5c6c",
+                  "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel55-3.0.15.tgz"
+               },
+               "edition": "targeted",
+               "packages": [
+                  "https://repo.mongodb.org/yum/redhat/5/mongodb-org/3.0/x86_64/RPMS/mongodb-org-server-3.0.15-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/5/mongodb-org/3.0/x86_64/RPMS/mongodb-org-mongos-3.0.15-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/5/mongodb-org/3.0/x86_64/RPMS/mongodb-org-tools-3.0.15-1.el5.x86_64.rpm",
+                  "https://repo.mongodb.org/yum/redhat/5/mongodb-org/3.0/x86_64/RPMS/mongodb-org-shell-3.0.15-1.el5.x86_64.rpm"
+               ],
+               "target": "rhel55"
+            }
+         ],
+         "githash": "b8ff507269c382bc100fc52f75f48d54cd42ec3b",
+         "notes": "http://docs.mongodb.org/manual/release-notes/3.0/",
+         "production_release": true,
+         "release_candidate": false,
+         "version": "3.0.15"
+      }
+   ]
+}
